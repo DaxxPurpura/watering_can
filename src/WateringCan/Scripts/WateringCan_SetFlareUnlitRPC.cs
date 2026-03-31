@@ -51,7 +51,7 @@ public class WateringCan_SetFlareUnlitRPC : ItemComponent
         Plugin.Log.LogInfo($"Putting off dynamite!");
     }
 
-    public Action DestroySmoke(GameObject smoke)
+    public Action? DestroySmoke(GameObject smoke)
     {
         Destroy(smoke);
         return null;

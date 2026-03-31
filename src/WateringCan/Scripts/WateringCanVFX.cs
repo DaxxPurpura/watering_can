@@ -3,16 +3,16 @@ using UnityEngine;
 
 public class WateringCanVFX : MonoBehaviourPun
 {
-	public Item item;
+	public Item item = null!;
 	public bool isPouring;
 	public bool audioStarted;
-	public AudioSource audioSource;
-	public ParticleSystem particle;
-	public GameObject waterLevel;
+	public AudioSource audioSource = null!;
+	public ParticleSystem particle = null!;
+	public GameObject waterLevel = null!;
 	public float minWaterLevelPosition = 0.000425f;
 	public float maxWaterLevelPosition = 0.0056f;
 	public float volume = 0.1f;
-	public WateringCanItem wateringCanItem;
+	public WateringCanItem wateringCanItem = null!;
 
 	public void Start()
 	{
