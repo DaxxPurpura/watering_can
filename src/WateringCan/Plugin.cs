@@ -52,7 +52,7 @@ public partial class Plugin : BaseUnityPlugin
         modDefinition = ModDefinition.GetOrCreate(Info.Metadata);
         Log.LogInfo($"Plugin Watering Can is loaded!");
 
-        showWateringSphere = Config.Bind("Debug", "Show Watering Sphere", true, "If true, allows to toggle the visibility of the watering sphere.");
+        showWateringSphere = Config.Bind("Debug", "Show Watering Sphere", false, "If true, allows to toggle the visibility of the watering sphere.");
 
         this.LoadBundleAndContentsWithName("watering_can_bundle.peakbundle", bundle =>
             {
