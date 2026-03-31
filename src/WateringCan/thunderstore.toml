@@ -8,7 +8,7 @@ repository = "https://thunderstore.io"
 namespace = "Daxxpurpura"
 name = "Watering_Can"
 description = "This mod adds the Watering Can, an item with multiple uses."
-websiteUrl = "" # TODO: Add a link to your mod repository here (optional)
+websiteUrl = "https://github.com/DaxxPurpura/watering_can"
 containsNsfwContent = false
 
 [package.dependencies]
