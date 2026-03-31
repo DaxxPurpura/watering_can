@@ -1,0 +1,3 @@
+artifacts/
+.vscode/*
+Config.Build.user.props
